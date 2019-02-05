@@ -8,6 +8,10 @@ $ ln -s -f .conf_tmux_vim/.tmux.conf
 $ ln -s -f .conf_tmux_vim/.tmux.conf.local
 $ ln -s -f .conf_tmux_vim/.vimrc
 ```
+### Apply change config of tmux
+```
+Prefix + :source-file ~/.tmux.conf
+```
 ## Reference
 - tmux
     - https://github.com/gpakosz/.tmux
