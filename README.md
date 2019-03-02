@@ -1,12 +1,12 @@
-# config tmux and vim
-customize tmux and vim configuration from config of reference
+# myconfig
+customize various configuration from config of reference (ex. vim, tmux)
 ## Installation
 ```
 $ cd ~
-$ git clone https://github.com/MrSyee/.conf_tmux_vim.git
-$ ln -s -f .conf_tmux_vim/.tmux.conf
-$ ln -s -f .conf_tmux_vim/.tmux.conf.local
-$ ln -s -f .conf_tmux_vim/.vimrc
+$ git clone https://github.com/MrSyee/.myconfig.git
+$ ln -s -f .myconfig/.tmux.conf
+$ ln -s -f .myconfig/.tmux.conf.local
+$ ln -s -f .myconfig/.vimrc
 ```
 ### Apply change config of tmux
 ```
