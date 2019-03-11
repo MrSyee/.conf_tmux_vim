@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Install apt-get install package."
+
 sudo apt-get -U -y  install \
     stow \
     git \
@@ -26,3 +28,6 @@ sudo apt-get install nodejs
 ## joplin: https://joplin.cozic.net/terminal/
 NPM_CONFIG_PREFIX=~/.joplin-bin npm install -g joplin
 sudo ln -s ~/.joplin-bin/bin/joplin /usr/bin/joplin
+
+echo "DONE !"
+
