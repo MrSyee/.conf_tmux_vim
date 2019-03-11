@@ -7,7 +7,7 @@ stow tmux
 stow vim
 
 # joplin
-ln -s -f ~/.dotfiles/joplin/keymap.json ~/.config/joplin/
+ln -s -f ~/.dotfiles/joplin/keymap.json ~/.config/joplin/keymap.json
 
 cd ~
 

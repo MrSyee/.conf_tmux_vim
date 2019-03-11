@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt-get install \
+sudo apt-get -U -y  install \
     stow \
     git \
     tree \
