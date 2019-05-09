@@ -32,7 +32,10 @@ $ sh ~/.dotfiles/new_session.sh
 
 
 ## Reference
-
+- bash-it
+    - https://github.com/Bash-it/bash-it
+- fzf
+    - https://github.com/junegunn/fzf
 - tmux
     - https://github.com/gpakosz/.tmux
 - vim
