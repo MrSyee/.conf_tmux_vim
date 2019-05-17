@@ -4,7 +4,7 @@ customize various configuration from config of reference (ex. vim, tmux)
 ## Installation
 ```
 $ cd ~
-$ git clone https://github.com/MrSyee/.myconfig.git
+$ git clone https://github.com/MrSyee/.dotfiles.git
 ```
 
 To set the configurations, please follow the steps below. It uses `stow`.
