@@ -13,6 +13,7 @@ To set the configurations, please follow the steps below. It uses `stow`.
 $ cd .dotfiles
 $ sh apt_install.sh
 $ sh setup.sh
+$ source ~/.bashrc
 ```
 
 ### Apply change config of tmux
