@@ -19,7 +19,7 @@ $ source ~/.bashrc
 ### Apply change config of tmux
 
 ```
-Prefix + :source-file ~/.tmux.conf
+tmux source-file ~/.tmux.conf
 ```
 
 ## Etc

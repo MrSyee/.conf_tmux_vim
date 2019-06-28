@@ -88,9 +88,8 @@ nnoremap gl :tab split \| YcmCompleter GoTo <CR>
 nnoremap gD :tab YcmCompleter GoToDeclaration <CR>
 nnoremap gd :YcmCompleter GetDoc <CR>
 nnoremap <F5> :NERDTree <CR>
-nnoremap <C-K> :Marks <CR>
 nnoremap <C-F> :Files 
-nnoremap <C-A> :Ag 
+nnoremap <C-P> :Ag 
 map <leader>w :w! <CR>
 nmap <F8> :TagbarToggle <CR>
 
@@ -129,10 +128,6 @@ let g:solarized_termcolors=256
 
 colorscheme jellybeans
 set background=dark
-
-" Macros
-let @a='i%load_ext autoreload
-%autoreload 2kVj"+yVjd'
 
 " smartindent off for python
 au! FileType python setl nosmartindent

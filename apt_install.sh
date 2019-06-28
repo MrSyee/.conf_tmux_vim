@@ -8,6 +8,7 @@ sudo apt-get -y  install \
     tree \
     vim \
     tmux \
+	xclip \
 
 # bash-it
 git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
