@@ -22,5 +22,10 @@ cd ~
 sudo apt -y install vim-gnome
 sudo apt -y install xclip
 
+# add .bashrc config
+cat ~/.dotfiles/.bashrc >> ~/.bashrc
+sed -i 's/bobby/powerline-multiline/g' ~/.bashrc
+alias brc='source ~/.bashrc'
+
 echo "DONE!"
 
