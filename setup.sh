@@ -8,6 +8,11 @@ stow vim
 
 cd ~
 
+# git config
+git config --global user.name "Kyunghwan Kim"
+git config --global user.email khsyee@gmail.com
+git config --global core.editor vim
+
 # tmux config update
 tmux source-file ~/.tmux.conf
 
