@@ -12,6 +12,9 @@ sudo apt-get -y  install \
 	make \
 	gcc \
 	net-tools\
+    openssh-server\
+    cmake\
+    
 
 # vundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
